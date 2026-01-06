@@ -1,0 +1,353 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+header {
+    padding-top: 280px;
+    background-color: #ffffff;
+    background: url(developer.png), url(header_bg.png), #FFFFFF; 
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
+    background-size:url(developer.png) 30% ;
+
+}
+.logo h2 {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.color {
+    color: #FD6E0A;
+}
+nav ul  {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 51px;
+    text-decoration: none;
+    border: none;
+}
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+.bu {
+    height: 65px;
+    width: 150px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 35px 19px 36px;
+    cursor: pointer;
+}
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 47px 38px 0 230px;
+}
+ #banner .banner-content h2 {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+
+ }
+#banner .banner-content h1 {
+    font-size: 85px;
+    color: #181818;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#banner .banner-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.bto {
+    background-color: #FD6E0A;
+    border: none;
+    color: #ffffff;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#banner .banner-image img {
+    width: 584px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#about {
+    padding: 130px ;
+}
+#about .about-content {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px 131px 156px;
+}
+.about-h {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.about-h h2 {
+    font-size: 35px;
+    color: #181818;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.about-h p {
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+#about .about-content .about-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.about-info .info-card p {
+    font-size: 20px;
+    color: #5c5c5c;
+    line-height: 40px;
+}
+.about-info .info-card h4 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#skills #rasuma {
+    padding: 130px ;
+
+}
+#skills .skills-con {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+#skills .skills-con .skills-box {
+    display: flex;
+    gap: 24px;
+}
+.skills-box .skills-card {
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #ff000067;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.skills-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skills-card h3 {
+    font-size: 20px;
+    color: #181818;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.skills-card p {
+    font-size: 16px;    
+    color: #6b6969;
+    line-height: 30px;
+}
+/* ===== Resume Summary Section ===== */
+
+.resume-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.resume-section h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+.resume-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.resume-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.resume-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.resume-item:last-child {
+  border-bottom: none;
+}
+
+.resume-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.resume-item span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.resume-item p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+}
+
+/* Download Button */
+
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.resume-btn button {
+  background: #ff7a18;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.resume-btn button:hover {
+  background: #e66a10;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .resume-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* Contact Section Styles */
+.contact-section {
+  background-color: #fff5f0;
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.connect, .message-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.connect h2, .message-form h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.connect p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.message-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message-form input,
+.message-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.message-form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.message-form button {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.message-form button:hover {
+  background-color: #e65c00;
+}
